@@ -7,5 +7,5 @@ https://digital.lib.hkbu.edu.hk/newsclipping/index.php
 
 ## Resource URL
 ```
-[https://digital.lib.hkbu.edu.hk/api/tvweek/](https://digital.lib.hkbu.edu.hk/api/chinese_newsclipping/)
+https://digital.lib.hkbu.edu.hk/api/chinese_newsclipping/
 ```
