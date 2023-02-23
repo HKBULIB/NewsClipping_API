@@ -10,3 +10,23 @@ https://digital.lib.hkbu.edu.hk/newsclipping/index.php
 ```
 https://digital.lib.hkbu.edu.hk/api/chinese_newsclipping/
 ```
+
+## API Outputs
+ The API returns the following output (by article entry):
+ - article title (headline)
+ - content type (news or advertisement)
+ - author(s)
+ - published location
+ - published date
+ - language (English, Simplified Chinese or Traditional Chinese)
+ - collection (film, religion or overseas)
+ - abstract
+ - what media (films, TV program) were mentioned in the news clippping
+ - persons mentioned in the news clipping
+ - organization or units mentioned in the news clipping
+ - list of keywords indexed from the contents
+ - URL of the newsclipping record on 《華人剪報資料庫》(HKBU Library) 
+ - URL of the newsclipping PDF scan on 《華人剪報資料庫》(HKBU Library) (if any)
+ 
+
+## Sample Usage (Python)
