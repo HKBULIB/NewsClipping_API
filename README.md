@@ -69,16 +69,39 @@ https://digital.lib.hkbu.edu.hk/api/chinese_newsclipping/?id=NCA-003074
 }
 ```
 
-**Example 2**: Results returned by specific range of published date (01 March 1985 - 31 December 1985):
+**Example 2**: Results returned by specific starting year:
 
-https://digital.lib.hkbu.edu.hk/api/tvweek/?startDate=1985-03-01&endDate=1985-12-31
+https://digital.lib.hkbu.edu.hk/api/chinese_newsclipping/?startYear=1954
 ```
 {
-    "totalResults": 1,
+    "totalResults": 33186,
     "Results": [
         {
-                        
-        }
+            "id": "NCB-000022",
+            "title": "傳教士林樂知、李提摩太的思想，帝國主義奴役殖民地人民的工具",
+            "type": "新聞及文章",
+            "newspaper": "光明日報",
+            "author": "馮友蘭",
+            "publishedLocation": "北京",
+            "publishedDate": "1954-05-19",
+            "language": "繁體中文",
+            "collection": "religion",
+            "mediaMention": null,
+            "peopleMention": [
+                "Allen, Young John, 1836-1907",
+                "Richard, Timothy, 1845-1919"
+            ],
+            "unitMention": null,
+            "abstract": null,
+            "keywords": [
+                "天主教與基督教",
+                "組織條例與指示言論"
+            ],
+            "url": "https:\/\/digital.lib.hkbu.edu.hk\/newsclipping\/record.php?ids=NCB-000022",
+            "scan_url": "https:\/\/storage.lib.hkbu.edu.hk\/projects\/newsclipping\/religion\/er00047m.pdf"
+        },
+        ...
+        ...
     ]
 }
 ```
@@ -88,11 +111,31 @@ https://digital.lib.hkbu.edu.hk/api/tvweek/?startDate=1985-03-01&endDate=1985-12
 https://digital.lib.hkbu.edu.hk/api/chinese_newsclipping/?collection=overseas
 ```
 {
-    "totalResults": 1,
+    "totalResults": 33765,
     "Results": [
         {
-                        
-        }
+            "id": "NCC-000001",
+            "title": "利用華僑力量，經濟封鎖中共，國府設專責機構",
+            "type": "新聞及文章",
+            "newspaper": "自然日報",
+            "author": null,
+            "publishedLocation": "香港",
+            "publishedDate": "1952-10-20",
+            "language": "繁體中文",
+            "collection": "overseas",
+            "mediaMention": null,
+            "peopleMention": null,
+            "unitMention": null,
+            "abstract": null,
+            "keywords": [
+                "臺灣",
+                "僑務機構"
+            ],
+            "url": "https:\/\/digital.lib.hkbu.edu.hk\/newsclipping\/record.php?ids=NCC-000001",
+            "scan_url": "https:\/\/storage.lib.hkbu.edu.hk\/projects\/newsclipping\/overseas\/00000008.pdf"
+        },
+        ...
+        ...
     ]
 }
 ```
