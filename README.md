@@ -29,4 +29,56 @@ https://digital.lib.hkbu.edu.hk/api/chinese_newsclipping/
  - URL of the newsclipping PDF scan on 《華人剪報資料庫》(HKBU Library) (if any)
  
 
-## Sample Usage (Python)
+## Query Parameters
+The following examples show how to use different query parameters to output data of specific issues from the dataset.
+
+**Example 1**: Results returned by specific ID number (NCA-018203):
+
+https://digital.lib.hkbu.edu.hk/api/tvweek/?issueNumber=1088
+```
+{
+    "totalResults": 1,
+    "Results": [
+        {
+                        
+        }
+    ]
+}
+```
+
+**Example 2**: Results returned by specific range of published date (01 March 1985 - 31 December 1985):
+
+https://digital.lib.hkbu.edu.hk/api/tvweek/?startDate=1985-03-01&endDate=1985-12-31
+```
+{
+    "totalResults": 1,
+    "Results": [
+        {
+                        
+        }
+    ]
+}
+```
+
+
+
+### Output Limit
+Note that each API query only returns a JSON result of 20 issues. To return more issues, use *limit* parameter
+```
+https://digital.lib.hkbu.edu.hk/api/tvweek/?start=0&limit=300
+```
+
+Using a combination of *limit* and *start* parameters, one can also applies pagniation when scraping the dataset:
+```
+https://digital.lib.hkbu.edu.hk/api/tvweek/?start=0&limit=10
+https://digital.lib.hkbu.edu.hk/api/tvweek/?start=11&limit=10
+https://digital.lib.hkbu.edu.hk/api/tvweek/?start=21&limit=10
+```
+
+## License
+CC BY-NC
+https://creativecommons.org/licenses/by-nc/4.0/
+
+![](https://mirrors.creativecommons.org/presskit/buttons/88x31/png/by-nc.png)
+
+
