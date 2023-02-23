@@ -12,7 +12,7 @@ https://digital.lib.hkbu.edu.hk/api/chinese_newsclipping/
 ```
 
 ## API Outputs
- The API returns the following output (by article entry):
+ The API returns the following output (for each newsclipping entry):
  - article title (headline)
  - content type (news or advertisement)
  - author(s)
