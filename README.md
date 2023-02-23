@@ -32,15 +32,38 @@ https://digital.lib.hkbu.edu.hk/api/chinese_newsclipping/
 ## Query Parameters
 The following examples show how to use different query parameters to output data of specific issues from the dataset.
 
-**Example 1**: Results returned by specific ID number (NCA-018203):
+**Example 1**: Results returned by specific record ID number (NCA-003074):
 
-https://digital.lib.hkbu.edu.hk/api/tvweek/?issueNumber=1088
+https://digital.lib.hkbu.edu.hk/api/chinese_newsclipping/?id=NCA-003074
 ```
 {
     "totalResults": 1,
     "Results": [
         {
-                        
+            "id": "NCA-003074",
+            "title": "重慶園杏同春班",
+            "type": "廣告",
+            "newspaper": "華字日報",
+            "author": null,
+            "publishedLocation": "香港",
+            "publishedDate": "1900-02-23",
+            "language": "繁體中文",
+            "collection": "film",
+            "mediaMention": [
+                "奇巧洋畫"
+            ],
+            "peopleMention": null,
+            "unitMention": [
+                "杏同春班",
+                "重慶園"
+            ],
+            "abstract": "重慶園換新粵劇戲碼，加演奇巧洋畫",
+            "keywords": [
+                "華文報紙電影史料",
+                "電影廣告"
+            ],
+            "url": "https:\/\/digital.lib.hkbu.edu.hk\/newsclipping\/record.php?ids=NCA-003074",
+            "scan_url": null
         }
     ]
 }
