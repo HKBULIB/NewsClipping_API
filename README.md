@@ -60,19 +60,38 @@ https://digital.lib.hkbu.edu.hk/api/tvweek/?startDate=1985-03-01&endDate=1985-12
 }
 ```
 
+**Example 3**: Results returned by a specific collection (overseas, religion, or films):
+
+https://digital.lib.hkbu.edu.hk/api/chinese_newsclipping/?collection=overseas
+```
+{
+    "totalResults": 1,
+    "Results": [
+        {
+                        
+        }
+    ]
+}
+```
+
+
+
+
 
 
 ### Output Limit
-Note that each API query only returns a JSON result of 20 issues. To return more issues, use *limit* parameter
+Note that each API query only returns a JSON result of 20 articles. To return more issues, use *limit* parameter
 ```
-https://digital.lib.hkbu.edu.hk/api/tvweek/?start=0&limit=300
+https://digital.lib.hkbu.edu.hk/api/chinese_newsclipping/?start=0&limit=300
+
+
 ```
 
 Using a combination of *limit* and *start* parameters, one can also applies pagniation when scraping the dataset:
 ```
-https://digital.lib.hkbu.edu.hk/api/tvweek/?start=0&limit=10
-https://digital.lib.hkbu.edu.hk/api/tvweek/?start=11&limit=10
-https://digital.lib.hkbu.edu.hk/api/tvweek/?start=21&limit=10
+https://digital.lib.hkbu.edu.hk/api/chinese_newsclipping/?start=0&limit=10
+https://digital.lib.hkbu.edu.hk/api/chinese_newsclipping/?start=11&limit=10
+https://digital.lib.hkbu.edu.hk/api/chinese_newsclipping/?start=21&limit=10
 ```
 
 ## License
