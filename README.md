@@ -19,7 +19,7 @@ https://digital.lib.hkbu.edu.hk/api/chinese_newsclipping/
  - published location
  - published date
  - language (English, Simplified Chinese or Traditional Chinese)
- - collection (film, religion or overseas)
+ - collection (see *Collection Code* table)
  - abstract
  - what media (films, TV program) were mentioned in the news clippping
  - persons mentioned in the news clipping
@@ -28,6 +28,19 @@ https://digital.lib.hkbu.edu.hk/api/chinese_newsclipping/
  - URL of the newsclipping record on 《華人剪報資料庫》(HKBU Library) 
  - URL of the newsclipping PDF scan on 《華人剪報資料庫》(HKBU Library) (if any)
  
+## Collection Code
+ Collection Code for each collection:
+  - 電影相關: film
+  - 宗教相關: religion
+  - 海外華僑: overseas
+  - 當代中國: contempchina
+  - 港澳問題: hkmacau
+  - 中國高等教育: chinaed
+  - 臺灣文教: taiwanissues
+  - 香港浸會大學校史: hkbu
+  - 石琪影評集: shekki
+  - 舒明影評集: shuming
+  
 
 ## Query Parameters
 The following examples show how to use different query parameters to output data of specific issues from the dataset.
@@ -106,7 +119,7 @@ https://digital.lib.hkbu.edu.hk/api/chinese_newsclipping/?startYear=1954
 }
 ```
 
-**Example 3**: Results returned by a specific collection (overseas, religion, or films):
+**Example 3**: Results returned by a specific collection (see *Collection Code* table):
 
 https://digital.lib.hkbu.edu.hk/api/chinese_newsclipping/?collection=overseas
 ```
