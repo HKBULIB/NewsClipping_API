@@ -40,6 +40,7 @@ https://digital.lib.hkbu.edu.hk/api/chinese_newsclipping/
   - 香港浸會大學校史: hkbu
   - 石琪影評集: shekki
   - 舒明影評集: shuming
+  - 香港1967暴動: hk1967riot
   
 
 ## Query Parameters
